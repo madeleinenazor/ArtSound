@@ -1,0 +1,772 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/****************HEADER****************/
+.navicons {
+	/*background-color:yellow;*/
+	width: 100%;
+    height: 100%;
+}
+
+.navicons > a > i {
+	padding-top:8px;
+    font-size: 2em;
+}
+
+.navicons > i { /*for the menu bar - not a link but is javascript*/
+	padding-top:8px;
+}
+
+
+#searchicon {
+	float: right;
+    padding-right: 1em;
+    cursor: pointer;
+    color: black;
+    margin-top: 0.9em; /*level with the menu*/
+}
+
+#homeicon {
+    margin: 0 auto;
+    width: 2em;
+}
+
+#homeicon > img {
+    height: 80px;
+	padding-top: 1em;
+    
+}
+
+#menuicon {
+    float: left;
+    padding-left: 1em;
+    /*background-color: green;*/
+    margin-top: -2.3em;
+    color: black;
+    cursor: pointer;
+}
+
+.nav > li {
+	display:none;
+}
+
+.headerwrapper {
+	color: #fff;
+}
+
+
+.hamburgermenu {
+	padding-top:4em; 
+	/*height:95vh;*/ 
+}
+
+.nav > li {
+	display:none;
+	clear:both;
+	width:100%;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	font-weight:200;
+	text-transform:uppercase;
+	line-height:5em;
+}
+
+.nav > li a {
+	color:black;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+/****************INDEX PAGE****************/
+
+/****************AUDIO PLAYER****************/
+
+.audioplayer {
+    height: 4em;
+    width: 100%;
+    background-color: #252525;
+}
+
+#volumeicon {
+	float: right;
+    padding-right: 0.5em;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 0.5em; /*level with the menu*/
+}
+
+#playicon {
+    float: left;
+    padding-left: 0.5em;
+    /*background-color: green;*/
+    margin-top: 0.5em;
+    color: #3d3d3d;
+    cursor: pointer; }
+
+#pauseicon {
+    float: left;
+    padding-left: 0.5em;
+    /*background-color: green;*/
+    margin-top: 0.5em;
+    color: #ffffff;
+    cursor: pointer; }
+
+#favouritesicon {
+    float: left;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    /*background-color: green;*/
+    margin-top: 0.5em;
+    color: #b9d7dd;
+    cursor: pointer; }
+
+.soundnametime {
+    text-transform:uppercase;
+	color:#ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1em;
+    padding-top: 1.4em;
+    
+}
+
+
+/****************HERO CONTENT****************/
+
+
+.heroimage > img {
+	width:100%;
+
+}
+
+.herotext {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+.herotext > p {
+	text-transform:uppercase;
+	color:#497fc9;
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	text-align:center;
+	font-size:1.4em;
+	padding: 2em;
+}
+
+/****************ALBUM OF THE WEEK****************/
+
+
+
+.albumoftheweek {
+    padding: 50px 5px 50px 5px;
+    margin: 0;
+    background-color: #dfdfdf;
+    width: 100%;
+    height: 100%;
+    
+}
+
+  .albumoftheweek .inner{
+            margin: 0 auto;
+            text-align: center;
+            width: 1300px;
+            max-width: 99%;
+            padding: 60px 0 60px 0;
+            }
+
+.albumoftheweek h1 {
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+    margin: 0.5em;
+    
+}
+
+    .albumoftheweek ul.thumbnails {
+        margin: 0;
+        padding: 0; 
+    }
+
+
+        .albumoftheweek li.aowitems {
+            margin: 0;
+            padding: 15px;
+            display: inline-block;
+            width: 350px;
+        }
+
+.aowimages img {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.aowcontent .title {
+    text-decoration: none;
+    color: #4284F4;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1em;
+}
+
+    .aowcontent p {
+    color:black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.5em;
+    height: 200px;
+    text-align: left;
+
+    }
+
+
+
+
+
+/****************OUR NEWS AND EVENTS****************/
+
+
+
+.onae {
+    padding: 100px 5px 100px 5px;
+    margin: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    
+}
+
+  .onae .inner{
+            margin: 0 auto;
+            text-align: center;
+            width: 1000px;
+            max-width: 94%;
+            padding: 60px 0 60px 0;
+            }
+
+.onae h1 {
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+    margin: 0.5em;
+    
+}
+
+.onae p {
+    color: #b8b9b9;
+    font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1em;
+    margin-bottom: 1em;
+    
+    
+}
+
+    .onae ul.thumbnails {
+        margin: 0;
+        padding: 0; 
+    }
+
+
+        .onae li.onaeitems {
+            margin: 0;
+            padding: 15px;
+            display: inline-block;
+            width: 300px;
+        }
+
+.onaeimages img {
+    padding-bottom: 0.5em;
+}
+
+.onaecontent .title {
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+}
+
+.onaecontent .date {
+    text-decoration: none;
+    color: #4284F4;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:200;
+	font-size:1em;
+}
+.onaecontent .time {
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+  font-family: 'Oswald', sans-serif;
+	font-weight:200;
+	font-size:1em;
+}
+    .onaecontent p {
+    margin-top: 1em;
+    color:black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+    height: 200px;
+
+    }
+
+
+/****************OUR PRESENTERS****************/
+
+
+
+.presenters {
+    padding: 100px 5px 100px 5px;
+    margin: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    
+}
+
+  .presenters .inner{
+            margin: 0 auto;
+            text-align: center;
+            width: 1300px;
+            max-width: 99%;
+            padding: 60px 0 60px 0;
+            }
+
+.presenters h1 {
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+    margin: 0.5em;
+    
+}
+
+    .presenters ul.thumbnails {
+        margin: 0;
+        padding: 0; 
+    }
+
+
+        .presenters li.presitems {
+            margin: 0;
+            padding: 15px;
+            display: inline-block;
+            width: 250px;
+        }
+
+.presimages img {
+    padding-bottom: 0.5em;
+}
+
+.prescontent .title {
+    text-decoration: none;
+    color: #4284F4;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+}
+
+    .prescontent p {
+    margin-top: 1em;
+    color:black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+    height: 200px;
+
+    }
+
+
+
+/****************SOCIAL MEDIA****************/
+
+
+
+
+.socialmedia{
+    height: 100%;
+    width: 100%;
+    background-color: #497fc9;
+    text-align: center;
+    
+}
+
+.socialmediaheader {
+	padding-top: 0.25em;
+    padding-bottom: 1em;
+	line-height:1.5em;	
+    font-family: 'Oswald', sans-serif;
+	color:#ffffff;
+    font-weight:lighter;
+    font-size:1em;
+    text-decoration: none;}
+
+.facebooksm {
+	float: right;
+    padding-right: 3em;
+    cursor: pointer;
+    color: #ffffff;
+    padding-top: 1em;
+ 
+}
+
+.instagramsm {
+    cursor: pointer;
+    color: #ffffff;
+    display: inline-block;
+    width: 6em; 
+    height: 7px;
+    padding-top: 1em;
+}
+
+.twittersm {
+	float: left;
+    padding-left: 3em;
+    cursor: pointer;
+    color: #ffffff; 
+    padding-top: 1em;
+    
+}
+
+.socialmedia .space {
+    height: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.location {
+	/*background-color:red;*/
+	height:2em;
+	width:100%;
+	text-align:center;
+	color:white;
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	text-transform:uppercase;
+	padding-top:0.5em;
+}
+
+.distance {
+    border-radius: 10px;
+    background-color: white;
+	color:#5c808f; /*naturescape blue branding*/
+    padding: 20px; 
+    width: 150px;
+	text-align:center;
+	margin:0 auto;
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	margin-top:0.3em;
+}
+
+
+.species {
+	background-color:orange;
+	height:auto;
+	width:100%;
+}
+
+.leftimg {
+    float:left;
+}
+
+.rightimg {
+	float:right;
+}
+
+.rightimg, .leftimg {
+    width:50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.backtotop {
+	background-color:#8ca8b4; /*lighter naturescape blue*/
+	text-align:center;
+}
+
+#up-icon {
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+/****************SPECIES****************/
+.specieswrapper > h1{
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	background-color:#5c808f; /*naturescape blue branding*/
+	height:2em;
+	color:white;
+	font-weight:300;
+	font-size:2em;
+	padding-top:1em;
+}
+
+#speciesimage {
+	width:100%;
+}
+
+.specieswrapper > h2 {
+	text-align:left;
+	font-family: 'Lato', sans-serif;
+	background-color:#5c808f; /*naturescape blue branding*/
+	height:2em;
+	color:white;
+	font-weight:300;
+	font-size:1.5em;
+	padding-top:1em;
+	padding-left:1.5em;
+	text-transform:uppercase;
+}
+
+#content {
+	background-color:#d1d6da; /*lightblue*/
+	text-align:left;
+	font-family: 'Lato', sans-serif;
+	color:#313131; /*off-black*/
+	font-weight:300;
+	font-size:1em;
+	padding:2em;
+	line-height:1.5em;
+}
+
+#map {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************LANDING PAGE****************/
+
+#backgroundlanding {
+	background-image:url(https://s18.postimg.org/6iwa8aw6x/landing.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.landingpagewrapper {
+	/*background-color:red;*/
+	height:100vh;
+	width:70%;
+	margin: 0 auto;
+	text-align:center;
+}
+
+#logo {
+	width:100%;
+}
+
+#icon {
+	width:20%;
+	margin-top:50%;
+	margin-bottom:1em;
+}
+
+.landingpagewrapper > p {
+	text-transform:uppercase;
+	color:white;
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	text-align:center;
+	font-size:0.9em;
+	padding-top:3em;
+	padding-bottom:0.5em;
+}
+
+#loading {
+	width:5%;
+}
+
+
+
+/****************ABOUT PAGE****************/
+
+
+.aboutwrapper {
+	background-color:#d1d6da; /*light blue*/
+}
+
+.aboutwrapper > h1 {
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	background-color:#5c808f; /*naturescape blue branding*/
+	height:2em;
+	color:white;
+	font-weight:300;
+	font-size:2em;
+	padding-top:1em;
+}
+
+
+.aboutwrapper > p {
+	padding: 2em;
+	line-height:1.5em;	
+	text-align:left;
+    font-family: 'Lato', sans-serif;
+	color:#313131; /*off-black*/
+	font-weight:300;
+}
+
+.aboutwrapper > img {
+	width:100vw;
+
+}
+
+
+
+
+
+
+
+
+/****************CONTACT PAGE****************/
+
+.contactwrapper > i {
+	color:#ffffff;
+    padding-top: 1em
+
+}
+
+.contactwrapper {
+	background-color:#d1d6da; /*light blue*/
+    text-align: center;
+}
+
+.contactwrapper > h1 {
+    text-align:center;
+	font-family: 'Lato', sans-serif;
+	background-color:#5c808f; /*naturescape blue branding*/
+	height:2em;
+	color:white;
+	font-weight:300;
+	font-size:2em;
+	padding-top:1em;
+}
+
+.contactheader {
+	padding-top: 0.25em;
+	line-height:1.5em;	
+	text-align: center;
+    font-family: 'Lato', sans-serif;
+	color:#313131; /*off-black*/
+	font-weight:300;
+}
+
+
+.contactsub {
+    	padding-top: 0.25em;
+	line-height:1.5em;	
+	text-align: center;
+    font-family: 'Lato', sans-serif;
+	color:#313131; /*off-black*/
+	font-weight:300;
+}
+
+/****************SMOOTH SCROLLING****************/
+
+.backtotop {
+	background-color:#ffffff; 
+	text-align:center;
+    padding: 2em;
+}
+
+#up-icon {
+	color:black;
+}
+
+
+/****************FOOTER****************/
+
+#footer {
+	background-color:#252525;
+	width:100%;
+    height: 8em;
+    text-align: center;
+}
+
+.footernav {
+    display: inline-block;
+    text-transform:uppercase;
+	color:#ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+}
+
+ul.fnav li {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+}
+
+
+
+#footer .space {
+    height: 2em;
+}
+
+
+
+
+
+
+a, a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+     color:#ffffff;
+}
