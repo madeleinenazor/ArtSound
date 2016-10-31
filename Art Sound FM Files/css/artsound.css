@@ -1,7 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
+@-ms-viewport{
+  width: device-width;
+}
 
 /****************HEADER****************/
 .navicons {
@@ -182,7 +184,7 @@
   .albumoftheweek .inner{
             margin: 0 auto;
             text-align: center;
-            width: 1300px;
+            width: 1100px;
             max-width: 99%;
             padding: 60px 0 60px 0;
             }
@@ -205,9 +207,9 @@
 
         .albumoftheweek li.aowitems {
             margin: 0;
-            padding: 15px;
+            padding: 10px;
             display: inline-block;
-            width: 350px;
+            width: 450px;
         }
 
 .aowimages img {
@@ -220,22 +222,21 @@
     color: #4284F4;
     text-transform:uppercase;
     font-family: 'Oswald', sans-serif;
-	font-weight:400;
-	font-size:1em;
+	font-weight:300;
+	font-size:1.3em;
+    line-height: 1em;
 }
 
+
+	
     .aowcontent p {
     color:black;
 	font-family: 'Oswald', sans-serif;
 	font-weight:300;
-	font-size:1.5em;
+	font-size:1.4em;
     height: 200px;
-    text-align: left;
 
     }
-
-
-
 
 
 /****************OUR NEWS AND EVENTS****************/
@@ -349,7 +350,7 @@
             margin: 0 auto;
             text-align: center;
             width: 1300px;
-            max-width: 99%;
+            max-width: 96%;
             padding: 60px 0 60px 0;
             }
 
@@ -373,7 +374,7 @@
             margin: 0;
             padding: 15px;
             display: inline-block;
-            width: 250px;
+            width: 300;
         }
 
 .presimages img {
