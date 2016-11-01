@@ -239,6 +239,69 @@
     }
 
 
+
+
+/****************ABOUT/MEMBERSHIP/DONATE****************/
+
+
+
+
+
+.donmem {
+    padding: 120px 5px 0 5px;
+    margin: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    
+}
+
+  .donmem .inner{
+            margin: 0 auto;
+            text-align: center;
+            width: 1000px;
+            max-width: 94%;
+            padding: 60px 0 0 0;
+            }
+
+    .donmem ul.thumbnails {
+        margin: 0;
+        padding: 0; 
+    }
+
+
+        .donmem li.donmemitems {
+            margin: 0;
+            padding: 15px;
+            display: inline-block;
+            width: 300px;
+        }
+
+.donmemimages img {
+    padding-bottom: 0.5em;
+}
+
+.donmemcontent .title {
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+}
+
+    .donmemcontent p {
+    margin-top: 1em;
+    color:black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+    height: 200px;
+
+    }
+
+
+
 /****************OUR NEWS AND EVENTS****************/
 
 
@@ -246,7 +309,7 @@
 .onae {
     padding: 100px 5px 100px 5px;
     margin: 0;
-    background-color: #ffffff;
+    background-color: #f1f1f1;
     width: 100%;
     height: 100%;
     
@@ -271,7 +334,7 @@
 }
 
 .onae p {
-    color: #b8b9b9;
+    color: #979797;
     font-family: 'Oswald', sans-serif;
 	font-weight:300;
 	font-size:1em;
@@ -332,13 +395,19 @@
 
     }
 
-
+.moreline a {
+    color:black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+    float: right;
+}
 /****************OUR PRESENTERS****************/
 
 
 
 .presenters {
-    padding: 100px 5px 100px 5px;
+    padding: 100px 5px 50px 5px;
     margin: 0;
     background-color: #ffffff;
     width: 100%;
@@ -351,7 +420,7 @@
             text-align: center;
             width: 1350px;
             max-width: 94%;
-            padding: 60px 0 60px 0;
+            padding: 60px 0 0 0;
             }
 
 .presenters h1 {
@@ -360,7 +429,7 @@
     font-family: 'Oswald', sans-serif;
 	font-weight:400;
 	font-size:1.4em;
-    margin: 0.5em;
+    margin: 2em;
     
 }
 
@@ -372,7 +441,7 @@
 
         .presenters li.presitems {
             margin: 0;
-            padding: 15px;
+            padding: 15px 15px 0 15pxS;
             display: inline-block;
             width: 300px;
         }
@@ -397,6 +466,7 @@
 	font-weight:300;
 	font-size:1.2em;
     height: 200px;
+    
 
     }
 
@@ -420,7 +490,6 @@
     padding-bottom: 1em;
 	line-height:1.5em;	
     font-family: 'Oswald', sans-serif;
-	color:#ffffff;
     font-weight:lighter;
     font-size:1em;
     text-decoration: none;}
@@ -450,6 +519,10 @@
     color: #ffffff; 
     padding-top: 1em;
     
+}
+
+.socialmedia a {
+    color: #ffffff;
 }
 
 .socialmedia .space {
@@ -733,7 +806,7 @@
 /****************FOOTER****************/
 
 #footer {
-	background-color:#252525;
+	background-color:#ffffff;
 	width:100%;
     height: 8em;
     text-align: center;
@@ -741,8 +814,11 @@
 
 .footernav {
     display: inline-block;
+}
+ul.fnav  a{
     text-transform:uppercase;
-	color:#ffffff;
+    text-decoration: none;
+    color: black;
 	font-family: 'Oswald', sans-serif;
 	font-weight:300;
 	font-size:1.2em;
@@ -750,8 +826,8 @@
 
 ul.fnav li {
     display: inline-block;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     padding-bottom: 0.5em;
 }
 
@@ -762,12 +838,23 @@ ul.fnav li {
 }
 
 
+#sfooter .sponser {
+    display: inline-block;
+      text-align: center;
+    margin: 0 auto;
+        color: black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+}
 
-
+ul.snav li {
+    display: inline-block;
+    text-align: center;
+    padding: 0.5em;
+}
 
 
 a, a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-     color:#ffffff;
+{    text-decoration: none;
 }
