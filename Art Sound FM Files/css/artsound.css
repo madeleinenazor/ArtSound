@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@-ms-viewport{
+    @-ms-viewport{
   width: device-width;
 }
 
@@ -209,7 +209,7 @@
             margin: 0;
             padding: 10px;
             display: inline-block;
-            width: 450px;
+            width: 350px;
         }
 
 .aowimages img {
@@ -349,8 +349,8 @@
   .presenters .inner{
             margin: 0 auto;
             text-align: center;
-            width: 1300px;
-            max-width: 96%;
+            width: 1350px;
+            max-width: 94%;
             padding: 60px 0 60px 0;
             }
 
@@ -374,7 +374,7 @@
             margin: 0;
             padding: 15px;
             display: inline-block;
-            width: 300;
+            width: 300px;
         }
 
 .presimages img {
