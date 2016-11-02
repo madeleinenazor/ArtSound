@@ -472,6 +472,102 @@
 
 
 
+
+/****************MEMBERSHIP PAGE****************/
+/****************MEMBERSHIP CONTENT****************/
+
+
+.bam {
+    padding: 100px 5px 100px 5px;
+    margin: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    
+}
+
+  .bam .inner{
+            margin: 0 auto;
+            text-align: center;
+            width: 1000px;
+            max-width: 94%;
+            padding: 60px 0 60px 0;
+            }
+
+.bam h1 {
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+    margin: 1em;
+    
+}
+
+.bam p {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+    margin-bottom: 1em;
+    
+    
+}
+
+    .bam ul.thumbnails {
+        margin: 0;
+        padding: 0; 
+    }
+
+
+        .bam li.bamitems {
+            margin: 0;
+            padding: 15px;
+            display: inline-block;
+            width: 300px;
+        }
+
+.bamimages img {
+    padding-bottom: 0.5em;
+}
+
+.bamcontent .title {
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+}
+
+.bamcontent .date {
+    text-decoration: none;
+    color: #4284F4;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:200;
+	font-size:1em;
+}
+.bamcontent .time {
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+  font-family: 'Oswald', sans-serif;
+	font-weight:200;
+	font-size:1em;
+}
+    .bamcontent p {
+    margin-top: 1em;
+    color:black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+    height: 200px;
+
+    }
+
+
+
 /****************SOCIAL MEDIA****************/
 
 
@@ -529,266 +625,6 @@
     height: 1em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.location {
-	/*background-color:red;*/
-	height:2em;
-	width:100%;
-	text-align:center;
-	color:white;
-	font-family: 'Lato', sans-serif;
-	font-weight:300;
-	text-transform:uppercase;
-	padding-top:0.5em;
-}
-
-.distance {
-    border-radius: 10px;
-    background-color: white;
-	color:#5c808f; /*naturescape blue branding*/
-    padding: 20px; 
-    width: 150px;
-	text-align:center;
-	margin:0 auto;
-	font-family: 'Lato', sans-serif;
-	font-weight:300;
-	margin-top:0.3em;
-}
-
-
-.species {
-	background-color:orange;
-	height:auto;
-	width:100%;
-}
-
-.leftimg {
-    float:left;
-}
-
-.rightimg {
-	float:right;
-}
-
-.rightimg, .leftimg {
-    width:50%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.backtotop {
-	background-color:#8ca8b4; /*lighter naturescape blue*/
-	text-align:center;
-}
-
-#up-icon {
-	color:white;
-}
-
-
-
-
-
-
-
-
-
-
-/****************SPECIES****************/
-.specieswrapper > h1{
-	text-align:center;
-	font-family: 'Lato', sans-serif;
-	background-color:#5c808f; /*naturescape blue branding*/
-	height:2em;
-	color:white;
-	font-weight:300;
-	font-size:2em;
-	padding-top:1em;
-}
-
-#speciesimage {
-	width:100%;
-}
-
-.specieswrapper > h2 {
-	text-align:left;
-	font-family: 'Lato', sans-serif;
-	background-color:#5c808f; /*naturescape blue branding*/
-	height:2em;
-	color:white;
-	font-weight:300;
-	font-size:1.5em;
-	padding-top:1em;
-	padding-left:1.5em;
-	text-transform:uppercase;
-}
-
-#content {
-	background-color:#d1d6da; /*lightblue*/
-	text-align:left;
-	font-family: 'Lato', sans-serif;
-	color:#313131; /*off-black*/
-	font-weight:300;
-	font-size:1em;
-	padding:2em;
-	line-height:1.5em;
-}
-
-#map {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/****************LANDING PAGE****************/
-
-#backgroundlanding {
-	background-image:url(https://s18.postimg.org/6iwa8aw6x/landing.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-
-.landingpagewrapper {
-	/*background-color:red;*/
-	height:100vh;
-	width:70%;
-	margin: 0 auto;
-	text-align:center;
-}
-
-#logo {
-	width:100%;
-}
-
-#icon {
-	width:20%;
-	margin-top:50%;
-	margin-bottom:1em;
-}
-
-.landingpagewrapper > p {
-	text-transform:uppercase;
-	color:white;
-	font-family: 'Lato', sans-serif;
-	font-weight:300;
-	text-align:center;
-	font-size:0.9em;
-	padding-top:3em;
-	padding-bottom:0.5em;
-}
-
-#loading {
-	width:5%;
-}
-
-
-
-/****************ABOUT PAGE****************/
-
-
-.aboutwrapper {
-	background-color:#d1d6da; /*light blue*/
-}
-
-.aboutwrapper > h1 {
-	text-align:center;
-	font-family: 'Lato', sans-serif;
-	background-color:#5c808f; /*naturescape blue branding*/
-	height:2em;
-	color:white;
-	font-weight:300;
-	font-size:2em;
-	padding-top:1em;
-}
-
-
-.aboutwrapper > p {
-	padding: 2em;
-	line-height:1.5em;	
-	text-align:left;
-    font-family: 'Lato', sans-serif;
-	color:#313131; /*off-black*/
-	font-weight:300;
-}
-
-.aboutwrapper > img {
-	width:100vw;
-
-}
-
-
-
-
-
-
-
-
-/****************CONTACT PAGE****************/
-
-.contactwrapper > i {
-	color:#ffffff;
-    padding-top: 1em
-
-}
-
-.contactwrapper {
-	background-color:#d1d6da; /*light blue*/
-    text-align: center;
-}
-
-.contactwrapper > h1 {
-    text-align:center;
-	font-family: 'Lato', sans-serif;
-	background-color:#5c808f; /*naturescape blue branding*/
-	height:2em;
-	color:white;
-	font-weight:300;
-	font-size:2em;
-	padding-top:1em;
-}
-
-.contactheader {
-	padding-top: 0.25em;
-	line-height:1.5em;	
-	text-align: center;
-    font-family: 'Lato', sans-serif;
-	color:#313131; /*off-black*/
-	font-weight:300;
-}
-
-
-.contactsub {
-    	padding-top: 0.25em;
-	line-height:1.5em;	
-	text-align: center;
-    font-family: 'Lato', sans-serif;
-	color:#313131; /*off-black*/
-	font-weight:300;
-}
 
 /****************SMOOTH SCROLLING****************/
 
