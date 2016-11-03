@@ -1,0 +1,842 @@
+@charset "UTF-8";
+/* CSS Document */
+
+    @-ms-viewport{
+  width: device-width;
+}
+
+/****************HEADER****************/
+.navicons {
+	/*background-color:yellow;*/
+	width: 100%;
+    height: 100%;
+}
+
+.navicons > a > i {
+	padding-top:8px;
+    font-size: 2em;
+}
+
+.navicons > i { /*for the menu bar - not a link but is javascript*/
+	padding-top:8px;
+}
+
+
+#searchicon {
+	float: right;
+    padding-right: 1em;
+    cursor: pointer;
+    color: black;
+    margin-top: 0.9em; /*level with the menu*/
+}
+
+#homeicon {
+    margin: 0 auto;
+    width: 2em;
+}
+
+#homeicon > img {
+    height: 80px;
+	padding-top: 1em;
+    
+}
+
+#menuicon {
+    float: left;
+    padding-left: 1em;
+    /*background-color: green;*/
+    margin-top: -2.3em;
+    color: black;
+    cursor: pointer;
+}
+
+.nav > li {
+	display:none;
+}
+
+.headerwrapper {
+	color: #fff;
+}
+
+
+.hamburgermenu {
+	padding-top:4em; 
+	/*height:95vh;*/ 
+}
+
+.nav > li {
+	display:none;
+	clear:both;
+	width:100%;
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	font-weight:200;
+	text-transform:uppercase;
+	line-height:5em;
+}
+
+.nav > li a {
+	color:black;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+/****************INDEX PAGE****************/
+
+/****************AUDIO PLAYER****************/
+
+.audioplayer {
+    height: 4em;
+    width: 100%;
+    background-color: #252525;
+}
+
+#volumeicon {
+	float: right;
+    padding-right: 0.5em;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 0.5em; 
+}
+
+#playicon {
+    float: left;
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+    color: #3d3d3d;
+    cursor: pointer; }
+
+#pauseicon {
+    float: left;
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+    color: #ffffff;
+    cursor: pointer; }
+
+#favouritesicon {
+    float: left;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-top: 0.5em;
+    color: #b9d7dd;
+    cursor: pointer; }
+
+.soundnametime {
+    text-transform:uppercase;
+	color:#ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1em;
+    padding-top: 1.4em;
+    
+}
+
+
+/****************HERO CONTENT****************/
+
+
+.heroimage > img {
+	width:100%;
+
+}
+
+.herotext {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+.herotext > p {
+	text-transform:uppercase;
+	color:#497fc9;
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	text-align:center;
+	font-size:1.4em;
+	padding: 2em;
+}
+
+/****************ALBUM OF THE WEEK****************/
+
+
+
+.albumoftheweek {
+    padding: 50px 5px 50px 5px;
+    margin: 0;
+    background-color: #dfdfdf;
+    width: 100%;
+    height: 100%;
+    
+}
+
+  .albumoftheweek .inner{
+            margin: 0 auto;
+            text-align: center;
+            width: 1100px;
+            max-width: 99%;
+            padding: 60px 0 60px 0;
+            }
+
+.albumoftheweek h1 {
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+    margin: 0.5em;
+    
+}
+
+    .albumoftheweek ul.thumbnails {
+        margin: 0;
+        padding: 0; 
+    }
+
+
+        .albumoftheweek li.aowitems {
+            margin: 0;
+            padding: 10px;
+            display: inline-block;
+            width: 350px;
+        }
+
+.aowimages img {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.aowcontent .title {
+    text-decoration: none;
+    color: #4284F4;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.3em;
+    line-height: 1em;
+}
+
+
+	
+    .aowcontent p {
+    color:black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.4em;
+    height: 200px;
+
+    }
+
+
+
+
+/****************ABOUT/MEMBERSHIP/DONATE****************/
+
+
+
+
+
+.donmem {
+    padding: 120px 5px 0 5px;
+    margin: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    
+}
+
+  .donmem .inner{
+            margin: 0 auto;
+            text-align: center;
+            width: 1000px;
+            max-width: 94%;
+            padding: 60px 0 0 0;
+            }
+
+    .donmem ul.thumbnails {
+        margin: 0;
+        padding: 0; 
+    }
+
+
+        .donmem li.donmemitems {
+            margin: 0;
+            padding: 15px;
+            display: inline-block;
+            width: 300px;
+        }
+
+.donmemimages img {
+    padding-bottom: 0.5em;
+}
+
+.donmemcontent .title {
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+}
+
+    .donmemcontent p {
+    margin-top: 1em;
+    color:black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+    height: 200px;
+
+    }
+
+
+
+/****************OUR NEWS AND EVENTS****************/
+
+
+
+.onae {
+    padding: 100px 5px 100px 5px;
+    margin: 0;
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    
+}
+
+  .onae .inner{
+            margin: 0 auto;
+            text-align: center;
+            width: 1000px;
+            max-width: 94%;
+            padding: 60px 0 60px 0;
+            }
+
+.onae h1 {
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+    margin: 0.5em;
+    
+}
+
+.onae p {
+    color: #979797;
+    font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1em;
+    margin-bottom: 1em;
+    
+    
+}
+
+    .onae ul.thumbnails {
+        margin: 0;
+        padding: 0; 
+    }
+
+
+        .onae li.onaeitems {
+            margin: 0;
+            padding: 15px;
+            display: inline-block;
+            width: 300px;
+        }
+
+.onaeimages img {
+    padding-bottom: 0.5em;
+}
+
+.onaecontent .title {
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+}
+
+.onaecontent .date {
+    text-decoration: none;
+    color: #4284F4;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:200;
+	font-size:1em;
+}
+.onaecontent .time {
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+  font-family: 'Oswald', sans-serif;
+	font-weight:200;
+	font-size:1em;
+}
+    .onaecontent p {
+    margin-top: 1em;
+    color:black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+    height: 200px;
+
+    }
+
+.moreline a {
+    color:black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+    float: right;
+}
+/****************OUR PRESENTERS****************/
+
+
+
+.presenters {
+    padding: 100px 5px 50px 5px;
+    margin: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    
+}
+
+  .presenters .inner{
+            margin: 0 auto;
+            text-align: center;
+            width: 1350px;
+            max-width: 94%;
+            padding: 60px 0 0 0;
+            }
+
+.presenters h1 {
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+    margin: 2em;
+    
+}
+
+    .presenters ul.thumbnails {
+        margin: 0;
+        padding: 0; 
+    }
+
+
+        .presenters li.presitems {
+            margin: 0;
+            padding: 15px 15px 0 15pxS;
+            display: inline-block;
+            width: 300px;
+        }
+
+.presimages img {
+    padding-bottom: 0.5em;
+}
+
+.prescontent .title {
+    text-decoration: none;
+    color: #4284F4;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+}
+
+    .prescontent p {
+    margin-top: 1em;
+    color:black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+    height: 200px;
+    
+
+    }
+
+
+
+
+/****************MEMBERSHIP PAGE****************/
+/****************MEMBERSHIP CONTENT****************/
+
+
+.bam {
+    padding: 100px 5px 100px 5px;
+    margin: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    
+}
+
+  .bam .inner{
+            margin: 0 auto;
+            text-align: center;
+            width: 1350px;
+            max-width: 94%;
+            padding: 60px 0 60px 0;
+            }
+
+.bam h1 {
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+    margin: 1em;
+    
+}
+
+.bam p {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+    margin-bottom: 1em;
+    
+    
+}
+
+    .bam ul.thumbnails {
+        margin: 0;
+        padding: 0; 
+    }
+
+
+        .bam li.bamitems {
+            margin: 0;
+            padding: 15px;
+            display: inline-block;
+            width: 300px;
+        }
+
+.bamimages img {
+    padding-bottom: 0.5em;
+}
+
+.bamcontent .title {
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+}
+
+.bamcontent .date {
+    text-decoration: none;
+    color: #4284F4;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:200;
+	font-size:1em;
+}
+.bamcontent .time {
+    text-decoration: none;
+    color: black;
+    text-transform:uppercase;
+  font-family: 'Oswald', sans-serif;
+	font-weight:200;
+	font-size:1em;
+}
+    .bamcontent p {
+    margin-top: 1em;
+    color:black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+    height: 200px;
+
+    }
+
+
+/****************ART DIARIES****************/
+/****************ART DIARIES INTRO****************/
+.artdiaries {
+    padding: 100px 5px 50px 5px;
+    margin: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    
+}
+
+  .artdiaries .inner{
+            margin: 0 auto;
+            text-align: center;
+            width: 1000px;
+            max-width: 94%;
+            padding: 60px 0 60px 0;
+            }
+
+.artdiaries h1 {
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.4em;
+    margin: 1em;
+    
+}
+
+.artdiaries h2 {
+    color: #497fc9;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	font-size:1.2em;
+    margin: 1em;
+    
+}
+
+.artdiaries p {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+    margin-bottom: 1em;
+    
+    
+}
+
+
+/****************ART DIARIES FORM****************/
+
+form {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+margin: 1em;
+}
+
+
+form > div {
+  clear: both;
+  overflow: hidden;
+  padding: 1px;
+  margin: 0 0 10px 0;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+}
+form > div > fieldset > div > div {
+  margin: 0 0 5px 0;
+}
+form > div > label,
+legend {
+  width: 25%;
+  float: left;
+  padding-right: 1em;
+}
+form > div > div,
+form > div > fieldset > div {
+  width: 75%;
+  float: right;
+}
+form > div > fieldset label {
+	font-size: 90%;
+}
+fieldset {
+	border: 0;
+  padding: 0;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+textarea {
+	width: 100%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password] {
+  width: 50%;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #4697e4;
+}
+
+@media (max-width: 600px) {
+  form > div {
+    margin: 0 0 15px 0; 
+  }
+  form > div > label,
+  legend {
+	  width: 100%;
+    float: none;
+    margin: 0 0 5px 0;
+  }
+  form > div > div,
+  form > div > fieldset > div {
+    width: 100%;
+    float: none;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea,
+  select {
+    width: 100%; 
+  }
+}
+@media (min-width: 1200px) {
+  form > div > label,
+	legend {
+  	text-align: right;
+  }
+}
+
+/****************SOCIAL MEDIA****************/
+
+
+
+
+.socialmedia{
+    height: 100%;
+    width: 100%;
+    background-color: #497fc9;
+    text-align: center;
+    
+}
+
+.socialmediaheader {
+	padding-top: 0.25em;
+    padding-bottom: 1em;
+	line-height:1.5em;	
+    font-family: 'Oswald', sans-serif;
+    font-weight:lighter;
+    font-size:1em;
+    text-decoration: none;}
+
+.facebooksm {
+	float: right;
+    padding-right: 3em;
+    cursor: pointer;
+    color: #ffffff;
+    padding-top: 1em;
+ 
+}
+
+.instagramsm {
+    cursor: pointer;
+    color: #ffffff;
+    display: inline-block;
+    width: 6em; 
+    height: 7px;
+    padding-top: 1em;
+}
+
+.twittersm {
+	float: left;
+    padding-left: 3em;
+    cursor: pointer;
+    color: #ffffff; 
+    padding-top: 1em;
+    
+}
+
+.socialmedia a {
+    color: #ffffff;
+}
+
+.socialmedia .space {
+    height: 1em;
+}
+
+
+/****************SMOOTH SCROLLING****************/
+
+.backtotop {
+	background-color:#ffffff; 
+	text-align:center;
+    padding: 2em;
+}
+
+#up-icon {
+	color:black;
+}
+
+
+/****************FOOTER****************/
+
+#footer {
+	background-color:#ffffff;
+	width:100%;
+    height: 8em;
+    text-align: center;
+}
+
+.footernav {
+    display: inline-block;
+}
+ul.fnav  a{
+    text-transform:uppercase;
+    text-decoration: none;
+    color: black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+}
+
+ul.fnav li {
+    display: inline-block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+
+
+#footer .space {
+    height: 2em;
+}
+
+
+#sfooter .sponser {
+    display: inline-block;
+      text-align: center;
+    margin: 0 auto;
+        color: black;
+	font-family: 'Oswald', sans-serif;
+	font-weight:300;
+	font-size:1.2em;
+}
+
+ul.snav li {
+    display: inline-block;
+    text-align: center;
+    padding: 0.5em;
+}
+
+
+a, a:hover, a:visited, a:link, a:active
+{    text-decoration: none;
+}
+

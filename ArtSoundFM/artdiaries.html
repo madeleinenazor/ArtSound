@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Art Diaries</title>
+    
+	<!--CSS-->
+    <link type="text/css" rel="stylesheet" href="css/artsound.css" /> 
+    <link type="text/css" rel="stylesheet" href="css/reset.css" />   
+ 
+  	<!--FAVICON-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!--FONT AWESOME ICONS-->
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  
+    <!--GOOGLE FONTS-->    
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+
+</head>
+<body>
+    
+<div class="headerwrapper">
+	<!--NAV BAR-->
+    <div class="navicons">   
+        <i id="searchicon" class="fa fa-search fa-2x" ></i> <span class="sr-only">Search:</span><!--search icon-->
+        <div id="homeicon"> <a href="index.html" aria-label="Home"><img src="images/aslogo.png" ></a>  </div> 
+        <i id="menuicon" class="fa fa-bars fa-2x" aria-hidden="true"></i>  <span class="sr-only">Menu:</span><!--hamburger icon-->
+    </div>
+    
+    
+    
+    <div class="menuhide">
+    <div class="hamburger">
+    <ul class="nav">
+                <li><a href="" >Programs</a></li>
+                <li><a href="artdiaries.html" >Art Diaries</a></li>
+                <li><a href="Membership%20and%20donations.html" >Membership</a></li>
+                <li><a href="" >Donate</a></li>
+                <li><a href="" >About</a></li>
+                <li><a href="" >Contact</a></li>
+    </ul>
+    </div>
+    </div>
+    
+    <!-- CONTENT-->
+    <!-- LOADER -->
+    <div id="loaderwrapper">
+        <div class="loadersection"> </div>
+    </div>
+    
+    </div> <!--closes headerwrapper-->
+    <!-- PAGEWRAPPER -->
+    <div class="pagewrapper">
+    <!-- HOMEWRAPPER -->
+    <div class="homewrapper">
+        
+        </div> <!--closes homewrapper div-->  
+    </div> <!--closes pagewrapper-->
+    
+    
+    
+<!-- AUDIO PLAYER -->
+    
+    <div class="audioplayer">    
+            <div class="soundicons">   
+        <i id="playicon" class="fa fa-play fa-2x" aria-hidden="true"></i><span class="sr-only">Play:</span> <!--play icon-->
+        <i id="pauseicon" class="fa fa-pause fa-2x" aria-hidden="true"></i> <span class="sr-only">Pause:</span> <!--pause icon-->
+        <i id="favouritesicon" class="fa fa-heart fa-2x" aria-hidden="true"></i><span class="sr-only">Favourite:</span><!--favourites icon-->
+        <i id="volumeicon" class="fa fa-volume-up fa-2x" aria-hidden="true"></i><span class="sr-only">Volume:</span> <!--volume icon-->
+                
+        <div class="soundnametime">10:00am  SoundSpace</div>
+        
+        </div>
+    
+    </div>
+
+    
+    
+<!-- ART DIARIES INTRO -->  
+    
+    <div class="artdiaries">
+          <div class="inner">
+   
+          <h1>Art Diaries</h1>
+<p>Our Arts Diaries are updated each week to inform listeners about events such as gallery and museum exhibitions, festivals, theatre, dance and music performances.</p>
+<h2>Arts Diaries are broadcast at the following approximate times.</h2>
+
+              <p> Monday to Friday  7.30am, 8.30am, 10.05am, 12.30pm, 5.30pm, 6.30pm </p>
+<p>Saturday &amp; Sundays  7.30am, 8.30am, 12.30pm, 1.30pm</p>
+              
+              <h2>Submit you event with the form below</h2>
+     
+
+                
+        </div> </div>
+
+         
+              
+    
+<!-- ART DIARIES FORM -->
+<form action="form">
+  
+  <div>
+    <label class="desc" id="title1" for="Field1">Full Name</label>
+    <div>
+      <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+    </div>
+  </div>
+    
+     <div>
+    <label class="desc" id="title2" for="Field1">Phone Number</label>
+    <div>
+      <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+    </div>
+  </div>
+  <div>
+    <label class="desc" id="title3" for="Field3">
+      Email
+    </label>
+    <div>
+      <input id="Field3" name="Field3" type="email" spellcheck="false" value="" maxlength="255" tabindex="3"> 
+   </div>
+  </div>
+    
+           <div>
+    <label class="desc" id="title1" for="Field1">Name of Organization</label>
+    <div>
+      <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+    </div>
+  </div>
+
+            <div>
+    <label class="desc" id="title1" for="Field1">Opening Date</label>
+    <div>
+      <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+    </div>
+  </div>
+
+               <div>
+    <label class="desc" id="title1" for="Field1">Closing Date</label>
+    <div>
+      <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+    </div>
+  </div>
+
+       <div>
+    <label class="desc" id="title1" for="Field1">Name of Event</label>
+    <div>
+      <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
+    </div>
+  </div>
+
+    
+  <div>
+    <label class="desc" id="title4" for="Field4">
+      Brief description of your event - 250 characters maximum
+    </label>
+  
+    <div>
+      <textarea id="Field4" name="Field4" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+    </div>
+  </div>
+ 
+  <div>
+    <fieldset>
+      <legend id="title6" class="desc">
+       I understand that preference is given to Arts Partners and Sponsors of ArtSoundFM. and that publication is not guaranteed
+      </legend>
+      <div>
+      <div>
+      	<input id="Field6" name="Field6" type="checkbox" value="First Choice" tabindex="8">
+      	<label class="choice" for="Field6"></label>
+      </div>
+        </div>
+    </fieldset>
+  </div>
+    
+      <div>
+    <fieldset>
+      <legend id="title6" class="desc">
+       I certify that the information above is correct.
+      </legend>
+      <div>
+      <div>
+      	<input id="Field6" name="Field6" type="checkbox" value="First Choice" tabindex="8">
+      	<label class="choice" for="Field6"></label>
+          </div>
+      </div>
+    </fieldset>
+  </div>
+  
+  <div>
+    <label class="desc" id="title106" for="Field106">
+      Art Sound Partner?
+    </label>
+    <div>
+    <select id="Field106" name="Field106" class="field select medium" tabindex="11"> 
+      <option value="First Choice">360 Fashion Market</option>
+      <option value="Second Choice">ANU School of Music</option>
+      <option value="Third Choice">Art Song Canberra</option>
+      <option value="First Choice">Artist Society Canberra</option>
+      <option value="Second Choice">ANU Choral Society</option>
+      <option value="Third Choice">Canberra Blues Society</option>
+      <option value="First Choice">Canberrs Brass</option>
+      <option value="Second Choice">Canberra International Music Festival</option>
+      <option value="Third Choice">Canberra Jazz Blog</option>
+      <option value="First Choice">Canberra Jazz Club</option>
+      <option value="Second Choice">COZMO</option>
+      <option value="Third Choice">Groove Warehouse</option>
+      <option value="First Choice">Jazz in Concert at The Gods Cafe</option>
+      <option value="Second Choice">Mirramu Creative Arts Centre</option>
+      <option value="Third Choice">Monaro Folk Society</option>
+      <option value="First Choice">Music for Canberra</option>
+      <option value="Second Choice">National Folk Festival</option>
+      <option value="Third Choice">Roya School of Church Music</option>
+      <option value="First Choice">Tuggeranong Arts Centre</option>
+      <option value="Second Choice">Wesley Music Centre</option>
+      <option value="Third Choice">None of the Above</option>
+    </select>
+    </div>
+  </div>
+  
+    
+  <div>
+		<div>
+  		<input id="saveForm" name="saveForm" type="submit" value="Submit">
+    </div>
+	</div>
+  
+</form>
+
+    
+    
+    
+    
+
+<!-- SOCIAL MEDIA -->
+    
+    <div class="socialmedia">
+    
+        <div class="facebooksm">
+           <i id="facebook" class="fa fa-facebook-official fa-4x" aria-hidden="true"></i> 
+            <p class="socialmediaheader"><a href="https://www.facebook.com/artsoundfm/" target="_blank" aria-label="Link to Facebook">ArtSound FM</a></p>    
+        </div>
+
+    
+    <div class="instagramsm">
+         <i id="instagram" class="fa fa-instagram fa-4x" aria-hidden="true"></i>
+            <p class="socialmediaheader"><a href="https://www.instagram.com/?hl=en" target="_blank" aria-label="Link to Instagram">@artSoundfm</a></p>  
+        </div>
+        
+        
+    <div class="twittersm">
+         <i id="twitter" class="fa fa-twitter-square fa-4x" aria-hidden="true"></i> 
+            <p class="socialmediaheader"><a href="https://twitter.com/artsoundfm" target="_blank" aria-label="Link to Twitter">@ArtSoundFM</a></p>      
+        </div>
+        
+        <div class="space"></div>
+        </div>     
+    
+    
+    
+    
+    
+    
+    
+ 
+
+<!-- FOOTER -->
+    
+    <div id="footer">  
+    <div class="space"></div>
+    <div class="footernav">
+    <ul class="fnav">
+                <li><a href="" >Programs</a></li>
+                <li><a href="artdiaries.html" >Art Diaries</a></li>
+                <li><a href="Membership%20and%20donations.html" >Membership</a></li>
+                <li><a href="" >Donate</a></li>
+                <li><a href="" >About</a></li>
+                <li><a href="" >Contact</a></li>
+    </ul>
+    </div>
+    
+    <div class="space"></div> 
+    
+<div id="sfooter">
+     <div class="sponser">
+         <h2>Sponsers</h2>
+    <ul class="snav">
+                 <li><a class="image" data-toggle="example" href="#example-project"><img alt="A C T Government" src="https://s13.postimg.org/pw7e325xj/actgov.png" /></a>
+                </li>
+                <li><a class="image" data-toggle="example" href="#example-project"><img alt="Australian Haydn Ensemble" src="https://s13.postimg.org/r1v9koygn/ash.png" /></a>
+                </li>
+                <li><a class="image" data-toggle="example" href="#example-project"><img alt="Australian String Quartet" src="https://s13.postimg.org/5gq6x31pz/asq.png" /></a></li>
+                <li><a class="image" data-toggle="example" href="#example-project"><img alt="Belconnon Arts Centre" src="https://s13.postimg.org/kdyny3eyf/belcoarts.png" /></a></li>
+                <li><a class="image" data-toggle="example" href="#example-project"><img alt="The Hungary Buddah" src="https://s13.postimg.org/k2h7lbyif/buddah.png" /></a></li>
+                <li><a class="image" data-toggle="example" href="#example-project"><img alt="Canberra International Music Festival" src="https://s13.postimg.org/o04haqlbr/cim.png" /></a></li>
+                <li><a class="image" data-toggle="example" href="#example-project"><img alt="C S G" src="https://s13.postimg.org/oe5tac5fb/csg.png" /></a></li>
+                <li><a class="image" data-toggle="example" href="#example-project"><img alt="Canberra Theater Centre" src="https://s13.postimg.org/5achtzsl3/cth.png" /></a></li>
+                <li><a class="image" data-toggle="example" href="#example-project"><img alt="M F G" src="https://s13.postimg.org/aaejfonlj/mfc.png" /></a></li>
+    </ul>
+    </div>
+    </div>
+        
+    </div>
+
+	<!--JAVASCRIPT-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="java/HamburgerMenu.js"></script>
+    <script src="java/SmoothScrolling.js"></script>      
+</body>
+</html>
